@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('usermockApi') ? 'http://localhost:3001/' : '/';
+  return getQueryStringParameterByName('usermockApi') ? 'http://localhost:3001/' : 'https://immense-mesa-92048.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
